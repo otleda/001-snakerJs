@@ -46,7 +46,7 @@ const initialState = () => ({
   apple: { x: 16, y: 2 },
 })
 
-const next = spec({
+const next = spec ({
   rows:  prop('rows'),
   cols:  prop('cols'),
   moves: nextMoves,
